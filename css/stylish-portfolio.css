@@ -228,6 +228,7 @@ h6 {
   -moz-background-size: cover;
   -o-background-size: cover;
   height: 100%;
+  background-attachment: fixed;
 }
 
 .callout h2 {
@@ -401,6 +402,7 @@ a:hover, a:focus, a:active {
   -o-background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
+  background-attachment: fixed;
 }
 
 #services {
