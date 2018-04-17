@@ -221,8 +221,8 @@ h6 {
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/pogibg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
-  background-attachment: fixed;
+  background-size: cover;
+  
 }
 
 .callout h2 {
@@ -390,9 +390,9 @@ a:hover, a:focus, a:active {
 
 #about { 
   background-image: url("../img/bar.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+ 
   background-position: left;
 }
 
