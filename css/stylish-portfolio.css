@@ -429,6 +429,19 @@ table {
 }
 
 
+  .scroll-to-top {
+    visibility: hidden;
+  }
+}
+
+.force-to-bottom {
+  position:absolute;
+  bottom: 10%;
+  width: 100%;
+}
+
+/** media **/
+
 @media screen and (max-width: 650px) {
   #callnowbutton {
       display: block;
@@ -449,19 +462,4 @@ table {
 @media screen and (min-width: 768px) {
   #about {background-attachment: fixed;}
   .callout {background-attachment: fixed;}
-
 }
-  .scroll-to-top {
-    visibility: hidden;
-  }
-}
-
-.force-to-bottom {
-  position:absolute;
-  bottom: 10%;
-  width: 100%;
-}
-
-/** SLIDER FADE **/
-
-
