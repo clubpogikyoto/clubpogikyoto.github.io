@@ -392,6 +392,12 @@ a:hover, a:focus, a:active {
   border-color: #fe00bf !important;
 }
 
+.bottom-btn {
+  position:absolute;
+  bottom: 10%;
+  width: 100%;
+}
+
 #about { 
   background-image: url("../img/bar.jpg");
   background-size: cover;
@@ -433,11 +439,6 @@ table {
   }
 }
 
-.bottom-btn {
-  position:absolute;
-  bottom: 10%;
-  width: 100%;
-}
 /** media **/
 
 @media screen and (max-width: 650px) {
