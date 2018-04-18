@@ -392,11 +392,7 @@ a:hover, a:focus, a:active {
   border-color: #fe00bf !important;
 }
 
-.force-to-bottom {
-  position: absolute;
-  bottom: 10%;
-  width: 100%;
-}
+
 #about { 
   background-image: url("../img/bar.jpg");
   background-size: cover;
