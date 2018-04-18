@@ -385,8 +385,6 @@ a:hover, a:focus, a:active {
   box-shadow: 0 0 15px #fe00bf;
   color: #FFF;
   background-color: transparent;
-   position:absolute;
-  bottom: 10%;
 }
 
 .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active {
@@ -435,12 +433,11 @@ table {
   }
 }
 
-#force-to-bottom {
+.bottom-btn {
   position:absolute;
   bottom: 10%;
   width: 100%;
 }
-
 /** media **/
 
 @media screen and (max-width: 650px) {
