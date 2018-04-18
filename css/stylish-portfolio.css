@@ -453,8 +453,4 @@ table {
       background: url('../img/telephone.png') center/50px 50px no-repeat #fe00bf;
   }
 
-@media screen and (min-width: 768px) {
-  #about {background-attachment: fixed;}
-  .callout {background-attachment: fixed;}
-}
 
