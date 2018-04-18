@@ -88,14 +88,12 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background-color: #000;
-  background-image: url('https://media.giphy.com/media/vRK6PLBxu9rCbexEk0/giphy.gif');
+  background-image: url('../img/POGIver2.GIF');
+  
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-background-size:cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+
 }
 
 .masthead h1 {
@@ -224,10 +222,7 @@ h6 {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  height: 75%;
+  background-attachment: fixed;
 }
 
 .callout h2 {
@@ -378,6 +373,7 @@ a:hover, a:focus, a:active {
 }
 
 
+
 /*** CUSTOM CSS **/
 
 .btn-outline-primary {
@@ -392,14 +388,11 @@ a:hover, a:focus, a:active {
   border-color: #fe00bf !important;
 }
 
-
 #about { 
   background-image: url("../img/bar.jpg");
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: left;
 }
 
@@ -429,13 +422,6 @@ table {
 }
 
 
- .scroll-to-top {
-    visibility: hidden;
-  }
-}
-
-/** media **/
-
 @media screen and (max-width: 650px) {
   #callnowbutton {
       display: block;
@@ -452,5 +438,17 @@ table {
       right: 20px;
       background: url('../img/telephone.png') center/50px 50px no-repeat #fe00bf;
   }
+  .scroll-to-top {
+    visibility: hidden;
+  }
+}
+
+.force-to-bottom {
+  position:absolute;
+  bottom: 10%;
+  width: 100%;
+}
+
+/** SLIDER FADE **/
 
 
