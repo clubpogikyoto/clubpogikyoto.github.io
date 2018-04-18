@@ -387,7 +387,6 @@ a:hover, a:focus, a:active {
   background-color: transparent;
    position:absolute;
   bottom: 10%;
-  width: 100%;
 }
 
 .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active {
