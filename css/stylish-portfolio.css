@@ -433,9 +433,9 @@ table {
   }
 }
 
-.force-to-bottom {
+#force-to-bottom {
   position:absolute;
-  bottom: 5%;
+  bottom: 10%;
   width: 100%;
 }
 
