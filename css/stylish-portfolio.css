@@ -392,10 +392,9 @@ a:hover, a:focus, a:active {
   border-color: #fe00bf !important;
 }
 
-.bottom-btn {
-  position:absolute;
-  bottom: 10%;
-  width: 100%;
+#header-btn {
+ position: absolute;
+ bottom: 10%;
 }
 
 #about { 
